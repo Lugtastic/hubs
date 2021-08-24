@@ -7,7 +7,6 @@ Main = {
 	Rounding = true,
 }
 });
-gengenv()["IrisAd"]=true
 wait(5)
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Lugtastic/hubs/main/EcuX-V2-SWF.lua'),true))()
 elseif game.PlaceId == (891852901) then
@@ -19,7 +18,6 @@ Main = {
 	Rounding = true,
 }
 });
-gengenv()["IrisAd"]=true
 wait(5)
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Lugtastic/hubs/main/EcuX-V2-Greenville.lua'),true))()
 end
