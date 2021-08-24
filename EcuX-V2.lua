@@ -6,8 +6,8 @@ Duration = 2,
 Main = {
     Rounding = true,
 }
-});
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Lugtastic/hubs/main/EcuX-V2-SFW.lua'),true))()
+});
 elseif game.PlaceId == (891852901) then
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Lugtastic/hubs/main/EcuX-V2-Greenville.lua'),true))()
 end
