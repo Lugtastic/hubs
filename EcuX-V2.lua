@@ -1,23 +1,20 @@
 if game.PlaceId == (5104202731) then
-local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/IrisBetterNotifications.lua"))()
-
-Notification.Notify("Ecu-X V2", "Southwest Florida [BETA]", false, {
-Duration = 5,
-Main = {
-	Rounding = true,
-}
-});
+wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Ecu-X V2";
+Text = "Southwest Florida [BETA]";
+Duration = 4;
+})
 wait(5)
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Lugtastic/hubs/main/EcuX-V2-SWF.lua'),true))()
-elseif game.PlaceId == (891852901) then
-local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/IrisBetterNotifications.lua"))()
 
-Notification.Notify("Ecu-X V2", "Greenville", false, {
-Duration = 5,
-Main = {
-	Rounding = true,
-}
-});
+elseif game.PlaceId == (891852901) then
+wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Ecu-X V2";
+Text = "Greenville";
+Duration = 4;
+})
 wait(5)
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Lugtastic/hubs/main/EcuX-V2-Greenville.lua'),true))()
 end
