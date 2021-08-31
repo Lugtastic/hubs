@@ -17,4 +17,14 @@ Duration = 4;
 })
 wait(5)
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Lugtastic/hubs/main/EcuX-V2-Greenville.lua'),true))()
+  
+elseif game.PlaceId == (4637668954) then
+wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Ecu-X V2";
+Text = "Rensselaer BETA";
+Duration = 4;
+})
+wait(5)
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Lugtastic/hubs/main/Rensselaer-Beta.lua'),true))()
 end
